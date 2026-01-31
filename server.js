@@ -12,7 +12,7 @@ admin.initializeApp({
   credential: admin.credential.cert(
     JSON.parse(process.env.FIREBASE_KEY)
   ),
-  storageBucket: "civicissue-55603.appspot.com"
+  storageBucket: "civicissue-55603.firebasestorage.app"
 });
 
 const bucket = admin.storage().bucket();
