@@ -1,0 +1,16 @@
+{
+  "name": "esp32-firebase-server",
+  "version": "1.0.0",
+  "description": "ESP32 to Firebase Storage upload server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^13.6.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
